@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { Shield, LayoutDashboard, Activity, Plug } from 'lucide-react';
 import { PLATFORMS } from '@/lib/dashboard-data';
-import ConnectPlatformsModal from '@/components/ConnectPlatformsModal';
+import ConnectPlatformsModal from '../../components/ConnectPlatformsModal';
 
 // ============================================================
 // Dashboard Layout — Clean sidebar with proper platform names
