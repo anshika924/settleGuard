@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import LiveFeed from '@/components/LiveFeed';
+import LiveFeed from '../../../components/LiveFeed';
 import { LIVE_EVENTS, EVENT_SCHEDULE, INITIAL_STATS } from '@/lib/data';
 import { RecoveryEvent } from '@/lib/types';
 import { Shield, Activity, Clock, TrendingUp, CheckCircle2 } from 'lucide-react';
