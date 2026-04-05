@@ -288,14 +288,14 @@ function BenefitsSection() {
   const benefits = [
     {
       keyword: 'Boost',
-      keywordColor: '#22c55e',
+      keywordColor: '#a78bfa',
       title: 'your\nearnings',
       description: 'Recover revenue you didn\'t even know was missing. Helps Paytm merchants ensure accurate settlements by catching every overcharge.',
       icon: <TrendingUp className="w-8 h-8" />,
     },
     {
       keyword: 'Reduce',
-      keywordColor: '#8b5cf6',
+      keywordColor: '#a78bfa',
       title: 'your\nexpenses',
       description: 'Eliminate the cost of manual reconciliation. Our AI handles the entire process — from detection to recovery.',
       icon: <BarChart3 className="w-8 h-8" />,
